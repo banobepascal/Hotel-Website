@@ -1,6 +1,6 @@
 /* header */
 header {
-    height: 85vh;
+  height: 85vh;
 }
 .restuarant-header {
   width: 100%;
@@ -18,11 +18,13 @@ header {
   padding: 5% 14%;
   font-size: 80px;
   color: #fff;
+  font-family: "Merriweather", serif;
 }
 
 .restuarant-header p {
   margin: -8% 14%;
   color: #fff;
+  font-family: "PT Sans", sans-serif;
 }
 
 /* Section-e */
