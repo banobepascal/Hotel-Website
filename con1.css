@@ -1,0 +1,667 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:  #F2F2F2;
+}
+
+header
+{
+	width: 100%;
+	height: 480px;
+	background: linear-gradient(rgba(0,0,20,0.6), rgba(0,0,20,0.6)), url(img/7.jpg);
+	background-size: cover;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	margin-top: -25px;
+
+}
+
+header p
+{
+	font-size: 18px;
+}
+
+header h2
+{
+	padding-top: 13%;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* Side menu part */
+
+.sm-wrapper
+{
+	margin-top: 100px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 15%;
+	/*text-align: center;*/
+}
+
+.contact
+{
+	float: right;
+	margin-right: 20%;
+	
+	margin-top: 100px;
+
+
+}
+
+.contact h4
+{
+	margin-left: 11%;
+	color: #9d9d9d;
+}
+
+.contact h2
+{
+	margin-left: 12%;
+	color: #9d9d9d;
+}
+
+.contact p a
+{
+	margin-left: 0%;
+	font-size: 16px;
+}
+
+.contact h3 a
+{
+	margin-left: 0%;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-top: -20px;
+}
+
+.sidemenu
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/greg.jpg);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	background-size: cover;
+	/*filter: grayscale(100%);*/
+}
+
+.sidemenu a
+{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #fff;
+	display: block;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+
+/*.sidemenu .close
+{
+	position: absolute;
+	margin-left: 50px;
+	top: 0;
+	right: 25px;
+	font-size: 95px;
+}*/
+
+/* side menu hover effect */
+/*
+.sm-wrapper a:after
+{
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 50px;
+	background: #e85e4f;
+	content: '';
+	transition: width 0.35s ease-in-out;
+}
+
+.sm-wrapper a:hover:after
+{
+	width: 10%;
+}
+
+.sm-wrapper a:hover
+{
+	padding-left: 64px;
+	transition: 0.35s ease-in-out;
+}*/
+
+/* Nav bar */
+
+nav1
+{
+	color: #fff;
+	width: 30px;
+	margin-top: 5.6%;
+	margin-right: 20px;
+	position: fixed;
+	float: right;
+	display: block;
+	z-index: 20;
+	/*display: none;*/
+}
+
+nav
+{
+	color: #fff;
+	width: 30px;
+	margin-top: -6.5%;
+	margin-right: 20px;
+	position: fixed;
+	float: right;
+	display: block;
+	z-index: 20;
+}
+
+
+
+#logo
+{
+	width: 90px;
+	height: 90px;
+	background: #000;
+	margin-top: 30px;
+}
+
+#logo:hover
+{
+	opacity: 0.8;
+	transition: .5s;
+}
+
+#logo li 
+{
+	text-align: center;
+	position: relative;
+	padding-top: 40px;
+	list-style: none;
+	
+}
+
+#logo li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+#menu-icon
+{
+	/*margin-left: -30px;*/
+	background: #000;
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+}
+
+#menu-icon:hover
+{
+	opacity: 0.8;
+	transition: .5s;
+}
+
+#menw
+{
+	
+	fill: #fff;
+	margin-left: 0px;
+	padding-top: 30px;
+	
+}
+
+#how
+{
+	margin-top: 30px;
+	fill: #fff;
+	/*display: none;*/
+	/*margin-left: 20px;*/
+}
+
+#menu
+{
+	display: none;
+}
+
+#booking
+{
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	color: #000;
+	margin-top: 0px;
+	position: fixed;
+}
+
+#booking:hover
+{
+	background: rgb(228, 224, 224);
+	transition: .5s;
+}
+
+#haw
+{
+	margin-top: 22px;
+	display: none;
+}
+
+
+#booking li
+{
+	text-align: center;
+	position: relative;
+	margin-top: 40px;
+	list-style: none;
+	font-size: 18px;
+}
+
+/* Booking Side */
+
+#book-list
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/greg.jpg);
+	overflow-x: hidden;
+	padding-top: 60px;
+	background-size: cover;
+	transition: 0.5s ease-in-out;
+	/*float: right;*/
+	/*opacity: 0.5;*/
+	filter: grayscale(100%);
+}
+
+#book-list h1
+{
+	font-size: 40px;
+	margin-top: -17%;
+	text-align: center;
+}
+
+#book-list p
+{
+	text-align: center;
+	margin-top: -10px;
+	font-size: 18px;
+}
+
+.group
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 600px;
+	height: 400px;
+	margin-top: 2%;
+	margin-left: 11%;
+}
+
+.griq
+{
+	border: 1px solid #9d9d9d;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 24px;
+	line-height: 2em;
+}
+
+.griq input
+{
+	height: 30px;
+}
+
+#btn
+{
+	width: 600px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 20px;
+	background: #fff;
+	border: none;
+	margin-left: -33.5%;
+}
+
+#btn:hover
+{
+	background: #9d9d9d;
+}
+
+.reserve
+{
+	margin: 5% 15%;
+	float: right;
+	
+}
+
+.reserve p
+{
+	border-bottom: 4px solid #fff;
+}
+
+.wrapper
+{
+	display: none;
+	margin-top: 15%;
+}
+
+======================================================================================
+
+#sec-a
+{
+	width: 100%;
+	height: 100vh;
+}
+
+.coni 
+{
+	width: 1200px;
+	height: 600px;
+	margin-left: 80px;
+	margin-top: -200px;
+	background-image: url(img/confrence.jpg);
+	background-size: cover;
+}
+
+
+#sec-b
+{
+	width: 1053px;
+	height: 773px;
+	margin-left: 160px;
+	margin-top: -60px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+.words
+{
+	width: 1003px;
+	height: 451px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.words h1
+{
+	font-size: 30px;
+	font-family: 'Slabo 27px', serif;
+}
+
+.words p
+{
+	padding-right: 60px;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.words h3
+{
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 24px;
+
+}
+.words li
+{
+	list-style-type: decimal;
+	line-height: 1.5em;
+	font-size: 17px;
+	padding-left: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.wrap
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 60px;
+	grid-gap: 5em;
+	padding-left: 50px;
+	padding-right: 20px;
+	font-family: 'Slabo 27px', serif;
+}
+
+.wrap p
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Section D */
+
+#section-d
+{
+	width: 100%;
+	height: 200px;
+	background: #000;
+	color: #fff;
+	/*text-align: center;*/
+	margin-top: 70px;
+}
+
+ul
+{
+	float: left;
+	margin-left: -30px;
+}
+
+ul li
+{
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+	/*float: right;*/
+}
+
+ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.svg
+{
+	text-align: center;
+	padding: 30px 40px;
+	float: right;
+	letter-spacing: 20px;
+	cursor: pointer;
+}
+
+.fas
+{
+	width: 12px;
+	fill: #fff;
+}
+
+.fas:hover
+{
+	fill: darkblue;
+}
+
+.twt
+{
+	fill: #fff;
+	width: 23px;
+}
+
+.twt:hover
+{
+	fill: #09c;
+}
+
+.insta
+{
+	fill: #fff;
+	width: 20px;
+}
+
+.insta:hover
+{
+	fill: brown;
+}
+
+#footer p
+{
+	text-align: center;
+	padding: 90px;
+	margin-right: 30%;
+}
+
+
+@media only screen and (max-width: 500px), (max-width: 600px)
+{
+
+	body
+	{
+		font-size: 15px;
+	}
+   header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: -160px;
+    width: 1070px;
+ 	}
+
+ 	.coni 
+	{
+	width: 1050px;
+	height: 600px;
+	margin-top: 200px;
+	margin-left: 20px;
+	}
+
+
+	#sec-a
+	{
+	width: 100%;
+	height: auto;
+	}
+
+	#sec-b
+	{
+	width: 1020px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 60px;
+	}
+
+	.words
+	{
+	width: 1003px;
+	height: 451px;
+	padding-left: 50px;
+	padding-top: 20px;
+	}
+
+	.wrap
+	{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5em;
+	}
+
+	#section-d
+	{
+	width: 1070px;
+	height: 350px;
+	margin-top: 10%;
+	text-align: center;
+	}
+
+	.svg
+	{
+	letter-spacing: 20px;
+	margin-left: 25%;
+	float: left;
+	margin-top: -5%;
+
+    }
+
+    #footer p
+	{
+	/*text-align: center;*/
+	padding: 18px;
+	/*margin-right: 30%;*/
+	float: right;
+	}
+
+	#menu-icon
+	{
+		margin-top: -40px;
+		margin-left: 0px;
+		height: 39px;
+		float: right;
+	}
+
+	#menw
+	{
+		
+		fill: #fff;
+		margin-left: 20px;
+		padding-top: 0px;
+		width: 40px;
+	}
+
+	#how
+	{
+		margin-top: -2px;
+		fill: transparent;
+		width: 40px;
+		margin-left: 20px;
+	}
+
+	#booking
+	{
+		margin-top: -3.55%;
+		height: 39px;
+	}
+
+	#booking li
+	{
+		margin-top: 10px;
+	}
+
+	#logo
+	{
+		margin-left: 500px;
+		margin-top: 0px;
+		width: 100px;
+		height: 38px;
+		/*text-align: center;*/
+
+		/*min-width: 300px;*/
+	}
+
+	#logo li 
+	{
+		padding-top: 10px;
+	}
+
+	nav
+	{
+		border: 2px solid #000;
+		width: 100%;
+		height: 40px;
+		margin-top: -236px;
+		background-color: #000;
+	}
+
+}

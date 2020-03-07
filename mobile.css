@@ -1,0 +1,96 @@
+body {
+	margin:0;
+	height: 0;
+	background: url(woods.jpg);
+	font-family: sans-serif;
+
+}
+
+.loginbox {
+	width: 320px;
+	height: 440px;
+	color: #fff;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.cyborg {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+
+}
+
+h1 {
+	margin: 0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	margin-bottom: 1px;
+	font-size: 18px;
+
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+	border:  none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #F03;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.loginbox input[type="submit"]:hover {
+
+	color: #000;
+	background: #f06;
+	cursor: pointer;
+}
+
+.loginbox a {
+
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333;
+}
+
+.loginbox a:hover {
+
+	color: #ffc107;
+}
+
+
+
+
+

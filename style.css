@@ -1,0 +1,768 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background:  #161616;
+}
+
+header
+{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	padding: 0;
+}
+
+/* Side menu part */
+
+.sm-wrapper
+{
+	margin-top: 100px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 15%;
+	/*text-align: center;*/
+}
+
+.contact
+{
+	float: right;
+	margin-right: 20%;
+	
+	margin-top: 100px;
+
+
+}
+
+.contact h4
+{
+	margin-left: 11%;
+	color: #9d9d9d;
+}
+
+.contact h2
+{
+	margin-left: 12%;
+	color: #9d9d9d;
+}
+
+.contact p a
+{
+	margin-left: 0%;
+	font-size: 16px;
+}
+
+.contact h3 a
+{
+	margin-left: 0%;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-top: -20px;
+}
+
+.sidemenu
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/greg.jpg);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	background-size: cover;
+	font-family: 'Bitter', serif;
+	/*filter: grayscale(100%);*/
+}
+
+.sidemenu a
+{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #fff;
+	display: block;
+	letter-spacing: 5px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+	font-family: 'Bitter', serif;
+}
+
+nav1
+{
+	color: #fff;
+	width: 30px;
+	margin-top: 16%;
+	margin-right: 20px;
+	position: fixed;
+	float: right;
+	display: block;
+	z-index: 20;
+	box-sizing: border-box;
+}
+
+nav
+{
+	color: #fff;
+	width: 90px;
+	margin-top: 10%;
+	margin-right: 20px;
+	position: fixed;
+	float: right;
+	display: block;
+	z-index: 20;
+	box-sizing: border-box;
+	/*background: #000;*/
+}
+
+
+
+#logo
+{
+	width: 90px;
+	height: 90px;
+	background: #000;
+	margin-top: 30px;
+}
+
+#logo:hover
+{
+	opacity: 0.8;
+	transition: .5s;
+}
+
+#logo li 
+{
+	text-align: center;
+	position: relative;
+	padding-top: 40px;
+	list-style: none;
+	
+}
+
+#logo li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Fredoka One', cursive;
+}
+
+#menu-icon
+{
+	/*margin-left: -30px;*/
+	background: #000;
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+}
+
+#menu-icon:hover
+{
+	opacity: 0.8;
+	transition: .5s;
+}
+
+#menw
+{
+	
+	fill: #fff;
+	margin-left: 20px;
+	padding-top: 30px;
+	
+}
+
+#how
+{
+	margin-top: 30px;
+	fill: transparent;
+	/*display: none;*/
+	/*margin-left: 20px;*/
+}
+
+#menu
+{
+	display: none;
+}
+
+#booking
+{
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	color: #000;
+	margin-top: 0px;
+	position: fixed;
+}
+
+#booking:hover
+{
+	background: rgb(228, 224, 224);
+	transition: .5s;
+}
+
+#haw
+{
+	margin-top: 22px;
+	display: none;
+}
+
+
+#booking li
+{
+	text-align: center;
+	position: relative;
+	margin-top: 40px;
+	list-style: none;
+	font-size: 18px;
+}
+
+/* Booking Side */
+
+#book-list
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/greg.jpg);
+	overflow-x: hidden;
+	padding-top: 60px;
+	background-size: cover;
+	transition: 0.5s ease-in-out;
+	/*float: right;*/
+	/*opacity: 0.5;*/
+	filter: grayscale(100%);
+	font-family: 'Bitter', serif;
+}
+
+#book-list h1
+{
+	font-size: 40px;
+	margin-top: -17%;
+	text-align: center;
+}
+
+#book-list p
+{
+	text-align: center;
+	margin-top: -10px;
+	font-size: 18px;
+}
+
+.group
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 600px;
+	height: 400px;
+	margin-top: 2%;
+	margin-left: 11%;
+}
+
+.griq
+{
+	border: 1px solid #9d9d9d;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 24px;
+	line-height: 2em;
+}
+
+.griq input
+{
+	height: 30px;
+}
+
+#btn
+{
+	width: 600px;
+	height: 40px;
+	font-size: 16px;
+	margin-top: 20px;
+	background: #fff;
+	border: none;
+	margin-left: 11%;
+}
+
+#btn:hover
+{
+	background: #9d9d9d;
+}
+
+.reserve
+{
+	margin: 5% 15%;
+	float: right;
+	
+}
+
+.reserve p
+{
+	border-bottom: 4px solid #fff;
+}
+
+.wrapper
+{
+	display: none;
+	margin-top: 15%;
+}
+======================================================================================
+
+/* Section A */
+#section-a
+{
+	width: 100%;
+	/*height: 100%;	*/
+}
+
+ .bg-image {
+	position: absolute;
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(img/alya.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+	/*opacity: 0.7;*/
+	background-color: #161616;
+	/*clip-path: polygon(0% 0,50% 0,50% 65px,100% 65px,100% 100%,0 100%)*/
+	/*margin-top: -200px;*/
+
+}
+
+#content
+{	
+	padding: 200px;	
+	color: #fff;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10em;
+}
+
+
+.key1 h1
+{
+	font-size: 2.3em;
+	width: 410px;
+	line-height: -3.5em;
+	font-family: 'Merriweather', serif;
+	/*text-align: center;*/
+}
+
+.key1 h3
+{
+	padding-left: 40px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.key1 h4 
+{
+	padding-top: 80px;
+	width: 150px;
+	font-size: 18px;
+	border-bottom: 4px solid #fff;
+
+}
+
+.key1 p
+{
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+
+.key1 h4 a
+{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+}
+
+.pic img
+{
+	width: 434px;
+	height: 287px;
+	background-size: cover;
+}
+
+#section-b
+{
+	width: 100%;
+	height: 950px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: -12%;
+	font-family: 'Bitter', serif;
+}
+
+.grid1
+{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/cover2.jpg);
+	background-size: cover;
+}
+
+.grid2
+{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/resty.jpg);
+	background-size: cover;
+}
+
+.grid3
+{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/confrence.jpg);
+	background-size: cover;
+}
+
+.grid4
+{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/services.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.grid p
+{
+	margin-top: 30%;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.grid a
+{
+	text-decoration: none;
+}
+
+
+/* Section C */
+
+#section-c
+{
+	width: 100%;
+	height: 650px;
+	background:  #161616;
+	color: #9d9d9d;
+	text-align: center;
+}
+
+#section-c h3
+{
+	padding-top: 80px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#facebook
+{
+	width: 940px;
+	height: 450px;
+	margin: 6% 15%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 9em;
+}
+
+
+.face h4
+{
+	text-align: center;
+	color: #9d9d9d;
+	display: block !important;
+
+}
+
+.face p
+{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 9px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: .2em;
+}
+
+.face img
+{
+	background-size: cover;
+	width: 400px;
+	height: 260px;
+	margin-top: 30px;
+
+}
+
+/* Section D */
+
+#section-d
+{
+	width: 100%;
+	height: 200px;
+	background: #000;
+	color: #fff;
+	/*text-align: center;*/
+}
+
+ul
+{
+	float: left;
+	margin-left: -30px;
+	margin-top: 70px;
+}
+
+ul li
+{
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+	/*float: right;*/
+}
+
+ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.svg
+{
+	text-align: center;
+	padding: 30px 40px;
+	float: right;
+	letter-spacing: 20px;
+	cursor: pointer;
+}
+
+.fas
+{
+	width: 12px;
+	fill: #fff;
+}
+
+.fas:hover
+{
+	fill: darkblue;
+}
+
+.twt
+{
+	fill: #fff;
+	width: 23px;
+}
+
+.twt:hover
+{
+	fill: #09c;
+}
+
+.insta
+{
+	fill: #fff;
+	width: 20px;
+}
+
+.insta:hover
+{
+	fill: brown;
+}
+
+#footer p
+{
+	text-align: center;
+	padding: 90px;
+	margin-right: 30%;
+}
+
+@media only screen and (max-width: 500px)
+{
+/*
+	body
+	{
+		width: 400px;
+	}
+*/
+   header 
+   {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: -160px;
+    margin-top: -55%;
+    height: 350px;
+ 	}
+
+
+
+ 	#section-b
+	{
+	width: 100%;
+	height: 950px;
+	display: grid;
+	grid-template-columns: 1fr;
+	/*grid-gap: 0.5em;*/
+	margin-top: -2%;
+	}
+
+	.grid
+	{
+		height: 450px;
+		width: 100%; 
+	}
+
+	#section-a
+	{
+		margin-top: -20%;
+	}
+
+	.pic img
+	{
+		margin-left: -167%;
+		margin-top: 90%;
+		width: 350px;
+	}
+
+	#content
+	{	
+		padding: 25px;	
+		color: #fff;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10em;
+		text-align: left;
+	}
+
+	.key1 h4 
+	{
+		text-decoration: none;
+		color: #fff;
+		margin-top: -15%;
+	}
+
+
+	#section-c
+	{
+		display: none;
+	}
+
+	#section-d
+	{
+	width: 100%;
+	height: 350px;
+	margin-top: 225%;
+	text-align: center;
+	}
+
+	.svg
+	{
+	letter-spacing: 20px;
+	margin-left: 2%;
+	float: left;
+	margin-top: -5%;
+
+    }
+
+    #footer p
+{
+	/*text-align: center;*/
+	padding: 18px;
+	/*margin-right: 30%;*/
+	float: right;
+}
+
+	#menu-icon
+	{
+		margin-top: -40px;
+		margin-left: 285px;
+		height: 39px;
+	}
+
+	#menw
+	{
+		
+		fill: #fff;
+		margin-left: 20px;
+		padding-top: 0px;
+		width: 40px;
+	}
+
+	#how
+	{
+		margin-top: -2px;
+		fill: transparent;
+		width: 40px;
+		margin-left: 20px;
+	}
+
+	#booking
+	{
+		margin-top: -4.2%;
+		height: 39px;
+	}
+
+	#booking li
+	{
+		margin-top: 10px;
+	}
+
+	#logo
+	{
+		margin-left: 140px;
+		margin-top: 0px;
+		width: 100px;
+		height: 38px;
+
+		/*min-width: 300px;*/
+	}
+
+	#logo li 
+	{
+		padding-top: 10px;
+	}
+
+	nav
+	{
+		border: 2px solid #000;
+		width: 380px;
+		height: 40px;
+		margin-top: 6px;
+		background-color: #000;
+	}
+
+	.key1 p
+	{
+		margin-right: 70px;
+	}
+
+	.grid p
+	{
+		margin-top: 50%;
+	}
+
+	/* Side menu part */
+
+	.sm-wrapper
+	{
+		margin-left: 0%;
+		text-align: center;
+	}
+
+	.contact
+	{
+		float: left;
+		text-align: center;
+		margin-left: -32.5%;
+		margin-top: 500px;
+	}
+
+		.sidemenu
+	{
+		height: 100%;
+		/*width: 75px;*/
+	}
+
+
+
+
