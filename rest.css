@@ -1,0 +1,158 @@
+/* header */
+header {
+    height: 85vh;
+}
+.restuarant-header {
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/dining.jpg);
+  background-size: cover;
+  padding-top: 20px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+}
+
+.restuarant-header h1 {
+  padding: 5% 14%;
+  font-size: 80px;
+  color: #fff;
+}
+
+.restuarant-header p {
+  margin: -8% 14%;
+  color: #fff;
+}
+
+/* Section-e */
+
+#section-e {
+  width: 100%;
+  height: auto;
+}
+
+.greedy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grids {
+  width: auto;
+  height: 450px;
+  text-align: center;
+}
+
+.box1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/dining.jpg);
+  background-size: cover;
+}
+
+.box1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/dining.jpg);
+  background-size: cover;
+}
+.box2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/cake.jpg);
+  background-size: cover;
+}
+
+.box3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/banq.jpg);
+  background-size: cover;
+}
+
+.box3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/banq.jpg);
+  background-size: cover;
+}
+
+.box4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/wine.jpg);
+  background-size: cover;
+}
+
+.box5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/dec.jpg);
+  background-size: cover;
+}
+
+.box5:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/dec.jpg);
+  background-size: cover;
+}
+
+.box6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/2.jpg);
+  background-size: cover;
+}
+
+.box7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/vil.jpg);
+  background-size: cover;
+}
+
+.box7:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/vil.jpg);
+  background-size: cover;
+}
+
+.box8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/wine.jpg);
+  background-size: cover;
+}
+
+.grids h2 {
+  text-align: center;
+  margin-top: 25%;
+  color: #fff;
+  font-size: 30px;
+}
+
+.grids p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.grids h3 {
+  color: #fff;
+  margin-top: 17%;
+}
+
+.grids h4 {
+  color: #fff;
+  margin-top: 20%;
+  float: left;
+  margin-left: 10%;
+}
+
+p1 {
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 50%;
+  margin-left: 10%;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: left;
+  word-spacing: 1px;
+  float: left;
+}
+
+.plus {
+  width: 25px;
+  fill: #fff;
+  /*display: none;*/
+}
