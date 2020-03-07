@@ -9,7 +9,7 @@ header {
   width: 100%;
   height: 480px;
   background: linear-gradient(rgba(0, 0, 20, 0.6), rgba(0, 0, 20, 0.6)),
-    url(img/7.jpg);
+    url(../img/7.jpg);
   background-size: cover;
   padding: 0;
   text-align: center;
@@ -35,13 +35,11 @@ header h2 {
   float: left;
   margin-top: 100px;
   margin-left: 15%;
-  /*text-align: center;*/
 }
 
 .contact {
   float: right;
   margin-right: 20%;
-
   margin-top: 100px;
 }
 
@@ -75,12 +73,11 @@ header h2 {
   top: 0;
   left: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(img/greg.jpg);
+    url(../img/greg.jpg);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   background-size: cover;
-  /*filter: grayscale(100%);*/
 }
 
 .sidemenu a {
@@ -106,18 +103,18 @@ nav1 {
   float: right;
   display: block;
   z-index: 20;
-  /*display: none;*/
 }
 
 nav {
   color: #fff;
-  width: 30px;
-  margin-top: -6.5%;
+  width: 90px;
+  margin-top: -10%;
   margin-right: 20px;
   position: fixed;
   float: right;
   display: block;
   z-index: 20;
+  box-sizing: border-box;
 }
 
 #logo {
@@ -142,11 +139,11 @@ nav {
 #logo li a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "Fredoka One", cursive;
 }
 
 #menu-icon {
-  /*margin-left: -30px;*/
   background: #000;
   width: 90px;
   height: 90px;
@@ -167,8 +164,6 @@ nav {
 #how {
   margin-top: 30px;
   fill: #fff;
-  /*display: none;*/
-  /*margin-left: 20px;*/
 }
 
 #menu {
@@ -212,7 +207,7 @@ nav {
   top: 0;
   left: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(img/greg.jpg);
+    url(../img/greg.jpg);
   overflow-x: hidden;
   padding-top: 60px;
   background-size: cover;
@@ -292,7 +287,7 @@ nav {
   height: 600px;
   margin-left: 80px;
   margin-top: -200px;
-  background-image: url(img/confrence.jpg);
+  background-image: url(../img/confrence.jpg);
   background-size: cover;
 }
 
@@ -357,7 +352,6 @@ nav {
   height: 200px;
   background: #000;
   color: #fff;
-  /*text-align: center;*/
   margin-top: 70px;
 }
 
@@ -370,7 +364,6 @@ ul li {
   display: inline-block;
   padding: 20px;
   font-size: 18px;
-  /*float: right;*/
 }
 
 ul li a {
@@ -477,9 +470,7 @@ ul li a {
   }
 
   #footer p {
-    /*text-align: center;*/
     padding: 18px;
-    /*margin-right: 30%;*/
     float: right;
   }
 
@@ -518,9 +509,6 @@ ul li a {
     margin-top: 0px;
     width: 100px;
     height: 38px;
-    /*text-align: center;*/
-
-    /*min-width: 300px;*/
   }
 
   #logo li {

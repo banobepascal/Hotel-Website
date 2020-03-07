@@ -403,10 +403,10 @@ nav {
 
 .face p {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 9px;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   letter-spacing: 0.2em;
 }
 
@@ -424,7 +424,6 @@ nav {
   height: 200px;
   background: #000;
   color: #fff;
-  /*text-align: center;*/
 }
 
 ul {
@@ -437,7 +436,6 @@ ul li {
   display: inline-block;
   padding: 20px;
   font-size: 18px;
-  /*float: right;*/
 }
 
 ul li a {
