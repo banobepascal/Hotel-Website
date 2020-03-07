@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Sir Jose - Contact</title>
+		<link
+		  href="https://fonts.googleapis.com/css?family=Fredoka+One|Merriweather|Nunito|PT+Sans&display=swap"
+		  rel="stylesheet"
+		/>
+		<link rel="stylesheet" type="text/css" href="../css/feedback.css" />
+	  </head>
+  <body>
+    <header>
+      <div id="sidemenu1" class="sidemenu">
+        <div class="sm-wrapper">
+          <a href="../index.html">Hotel</a>
+          <a href="./rooms.html">Rooms & Suites</a>
+          <a href="./restuarant.html">Dining & Leisure</a>
+          <a href="./con1.html">Conferences</a>
+          <a href="./feedback.html">Feed Back</a>
+        </div>
+        <div class="contact">
+          <h4>Where are we</h4>
+          <h2>Sir Jose Hotel</h2>
+          <p><a href="#">+256 706 537 427</a></p>
+          <h3><a href="#">Contact and directions</a></h3>
+        </div>
+      </div>
+      <nav>
+        <div id="logo">
+          <li><a href="../index.html">SJH</a></li>
+        </div>
+        <div id="menu-icon">
+          <div style="font-size: 50px; cursor: pointer;" onclick="openSM()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 24 24"
+              id="menw"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+          </div>
+
+          <a href="javascript:void(0)" class="close" onclick="closeSM()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="80"
+              height="50"
+              viewBox="0 0 24 24"
+              id="how"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+              <path d="M0 0h24v24H0z" fill="none" />
+            </svg>
+          </a>
+        </div>
+        <div id="booking">
+          <div
+            style="font-size: 50px; cursor: pointer; color: #5b5b5b"
+            onclick="openBL()"
+          >
+            <li id="book">Book</li>
+          </div>
+        </div>
+        <div id="book-list">
+          <div id="booking">
+            <a href="javascript:void(0)" class="close" onclick="closeBL()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="80"
+                height="50"
+                viewBox="0 0 24 24"
+                style="display: block;"
+                id="haw"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+                <path d="M0 0h24v24H0z" fill="none" />
+              </svg>
+            </a>
+          </div>
+          <div class="wrapper">
+            <h1 id="til">Book now and get our best rates!</h1>
+            <p>
+              Exclusively for our hotel guests: Experience the 7132 Thermal
+              Baths by night on Wednesday, Friday & Sunday
+            </p>
+            <div class="reserve">
+              <h3>Sir Jose restuarant</h3>
+              <p>Reserve table</p>
+            </div>
+            <div class="group">
+              <div class="griq">
+                <label for="stdate">Arrive</label><br />
+                <input
+                  type="date"
+                  id="stdate"
+                  name="startdate"
+                  min="2019-02-11"
+                />
+              </div>
+              <div class="griq">
+                <label for="stdate">Depature</label><br />
+                <input
+                  type="date"
+                  id="stdate"
+                  name="startdate"
+                  min="2019-02-11"
+                />
+              </div>
+              <div class="griq">
+                <label for="stud_age">Adults</label><br />
+                <input type="number" id="stud-age" name="" min="0" max="3" />
+              </div>
+              <div class="griq">
+                <label for="stud_age">Children</label><br />
+                <input type="number" id="stud-age" name="" min="0" max="3" />
+              </div>
+            </div>
+            <input type="submit" id="btn" value="BOOK NOW" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="contact-title">
+      <h1>Say Hello</h1>
+      <h2>We are always ready to serve you</h2>
+    </div>
+
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="">
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Your Name"
+          required
+        /><br />
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+        /><br />
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message"
+          row="4"
+          required
+        ></textarea
+        ><br />
+        <input
+          type="submit"
+          class="form-control submit"
+          value="SEND FEEDBACK"
+        />
+      </form>
+    </div>
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
+    <script type="text/javascript" src="../js/side.js"></script>
+  </body>
+</html>
